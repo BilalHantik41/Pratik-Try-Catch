@@ -12,7 +12,7 @@ namespace Pratik___Try_Catch
         {
 
             bool isValueInput = false;
-            int validNumber = 0;
+            int validNumber = 0; // while döngüsünden çıkan değeri burda tutuyoruz.
             while (!isValueInput)
             {
                 Console.Write("Bir Sayı Giriniz: ");
@@ -61,7 +61,7 @@ namespace Pratik___Try_Catch
                     Console.WriteLine(ex.Message);
                 }
             }
-            return validNumber * validNumber;
+            return validNumber * validNumber; // kullanıcının girmiş olduğu değerin karesini bulup değeri döndürüyoruz.
         }
     }
 }
